@@ -15,4 +15,9 @@ public class SpringBootAppApplication {
 		    
 	}
 
+       public void Adddata(){
+       
+       String username ="hari";
+}
+
 }
