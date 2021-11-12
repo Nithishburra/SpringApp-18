@@ -12,7 +12,13 @@ public class SpringBootAppApplication {
 		//changes for HIS-133
 		    run.close();
 		 
-		    
-	}
+}
+    
+ public void doprocess(){
+ 
+  //HIS-212 Related changes here
+  // logic here
+
+}
 
 }
