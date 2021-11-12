@@ -7,6 +7,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
 public class SpringBootAppApplication {
 
+   private Map<String,Object> cache = new Map<String,Object>
+
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run=SpringApplication.run(SpringBootAppApplication.class, args);
 		//changes for HIS-133
@@ -14,5 +16,9 @@ public class SpringBootAppApplication {
 		 
 		    
 	}
+
+      public void Datacache(){
+
+      }
 
 }
